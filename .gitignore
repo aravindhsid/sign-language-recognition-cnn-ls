@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints (GitHub limits files > 100MB; store weights via Releases or Git LFS)
+checkpoints/*.pth
+checkpoints/*.pt
+checkpoints/*.onnx
+
+# Dataset video clips (users generate/download locally)
+data/raw_videos/*/*.mp4
+data/raw_videos/*/*.avi
+data/processed/*
+
+# Environments
+venv/
+.venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
